@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultersIT.API", "ConsultersIT.API\ConsultersIT.API.csproj", "{36C46F58-C14C-4E79-B4C5-8C014B4DEFE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultersIT.Core", "ConsultersIT.Core\ConsultersIT.Core.csproj", "{678BE2AC-1CE2-471C-8373-FB8135614FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultersIT.Infra", "ConsultersIT.Infra\ConsultersIT.Infra.csproj", "{B1CD470B-326B-4F28-84E6-77983B1B73A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36C46F58-C14C-4E79-B4C5-8C014B4DEFE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C46F58-C14C-4E79-B4C5-8C014B4DEFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C46F58-C14C-4E79-B4C5-8C014B4DEFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C46F58-C14C-4E79-B4C5-8C014B4DEFE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678BE2AC-1CE2-471C-8373-FB8135614FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678BE2AC-1CE2-471C-8373-FB8135614FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678BE2AC-1CE2-471C-8373-FB8135614FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678BE2AC-1CE2-471C-8373-FB8135614FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CD470B-326B-4F28-84E6-77983B1B73A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CD470B-326B-4F28-84E6-77983B1B73A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CD470B-326B-4F28-84E6-77983B1B73A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CD470B-326B-4F28-84E6-77983B1B73A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

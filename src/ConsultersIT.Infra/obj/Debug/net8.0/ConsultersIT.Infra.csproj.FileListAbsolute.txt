@@ -1,0 +1,12 @@
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/bin/Debug/net8.0/ConsultersIT.Infra.deps.json
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/bin/Debug/net8.0/ConsultersIT.Infra.dll
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/bin/Debug/net8.0/ConsultersIT.Infra.pdb
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfoInputs.cache
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfo.cs
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.csproj.CoreCompileInputs.cache
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.dll
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/Debug/net8.0/refint/ConsultersIT.Infra.dll
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.pdb
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/Debug/net8.0/ref/ConsultersIT.Infra.dll
+/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.csproj.AssemblyReference.cache
