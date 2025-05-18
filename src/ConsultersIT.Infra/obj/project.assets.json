@@ -3286,11 +3286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj",
+      "projectUniqueName": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj",
       "projectName": "ConsultersIT.Infra",
-      "projectPath": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj",
+      "projectPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj",
       "packagesPath": "/home/fedelmondes/.nuget/packages/",
-      "outputPath": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/",
+      "outputPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/fedelmondes/.nuget/NuGet/NuGet.Config"

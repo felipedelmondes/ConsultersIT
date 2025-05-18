@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/ConsultersIT.API.csproj": {}
+    "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/ConsultersIT.API.csproj": {}
   },
   "projects": {
-    "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/ConsultersIT.API.csproj": {
+    "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/ConsultersIT.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/ConsultersIT.API.csproj",
+        "projectUniqueName": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/ConsultersIT.API.csproj",
         "projectName": "ConsultersIT.API",
-        "projectPath": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/ConsultersIT.API.csproj",
+        "projectPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/ConsultersIT.API.csproj",
         "packagesPath": "/home/fedelmondes/.nuget/packages/",
-        "outputPath": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/obj/",
+        "outputPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/fedelmondes/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj": {
-                "projectPath": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj"
+              "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/ConsultersIT.Core.csproj": {
+                "projectPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/ConsultersIT.Core.csproj"
               },
-              "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj": {
-                "projectPath": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj"
+              "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj": {
+                "projectPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj"
               }
             }
           }
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.NpgSql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.15, )"
@@ -77,14 +81,14 @@
         }
       }
     },
-    "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj": {
+    "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/ConsultersIT.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj",
+        "projectUniqueName": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/ConsultersIT.Core.csproj",
         "projectName": "ConsultersIT.Core",
-        "projectPath": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj",
+        "projectPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/ConsultersIT.Core.csproj",
         "packagesPath": "/home/fedelmondes/.nuget/packages/",
-        "outputPath": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/obj/",
+        "outputPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/fedelmondes/.nuget/NuGet/NuGet.Config"
@@ -98,7 +102,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj": {
+                "projectPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -130,14 +138,14 @@
         }
       }
     },
-    "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj": {
+    "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj",
+        "projectUniqueName": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj",
         "projectName": "ConsultersIT.Infra",
-        "projectPath": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj",
+        "projectPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj",
         "packagesPath": "/home/fedelmondes/.nuget/packages/",
-        "outputPath": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/",
+        "outputPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/fedelmondes/.nuget/NuGet/NuGet.Config"

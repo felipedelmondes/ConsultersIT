@@ -1,3 +1,9 @@
+using ConsultersIT.Core.Interfaces;
+using ConsultersIT.Core.Services;
+using ConsultersIT.Infra.Data.Context;
+using ConsultersIT.Infra.Interfaces;
+using ConsultersIT.Infra.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +12,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
+//services
+
+builder.Services.AddTransient<ITesteRepository, TesteRepository>();
+builder.Services.AddTransient<ITesteService, TesteService>();
+builder.Services.AddTransient<DBContext>();
+
+// Adicionando HealthChecks
+builder.Services.AddHealthChecks()
+    .AddNpgSql(builder.Configuration.GetConnectionString("PostgresDb"));
 
 var app = builder.Build();
 
@@ -18,6 +33,9 @@ if (app.Environment.IsDevelopment())
 
 app.MapControllers();
 app.UseHttpsRedirection();
+
+// Mapeando o endpoint de HealthChecks
+app.MapHealthChecks("/health");
 
 // Alterando a porta padrão para evitar conflito
 app.Run();

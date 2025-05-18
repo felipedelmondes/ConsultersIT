@@ -9,3 +9,19 @@
 /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/obj/Debug/net8.0/refint/ConsultersIT.Core.dll
 /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.pdb
 /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/obj/Debug/net8.0/ref/ConsultersIT.Core.dll
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Core.deps.json
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Core.dll
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Core.pdb
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Infra.dll
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Infra.pdb
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.csproj.AssemblyReference.cache
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfoInputs.cache
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfo.cs
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.csproj.CoreCompileInputs.cache
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.sourcelink.json
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.csproj.CopyComplete
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.dll
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/refint/ConsultersIT.Core.dll
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.pdb
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ref/ConsultersIT.Core.dll

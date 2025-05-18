@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsultersIT.Infra
-build_property.ProjectDir = /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/
+build_property.ProjectDir = /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

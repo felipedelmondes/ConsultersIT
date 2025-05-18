@@ -2,18 +2,27 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ConsultersIT.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConsultersIT.API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
     public class TesteController : ControllerBase
     {
-        [HttpGet]            
-        public IActionResult Get()
+        private readonly ITesteService _service;
+
+        public TesteController(ITesteService service)
         {
-            return Ok("Teste");
+            _service = service;
+        }
+
+
+        [HttpGet]      
+        [Route("api/TesteDB")]
+        public Task<string> Get()
+        {
+            return _service.GetTesteAsync();
         }
     }
 }
