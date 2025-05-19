@@ -8,25 +8,28 @@ using Dapper;
 
 namespace ConsultersIT.Infra.Repositories
 {
-    public class TesteRepository : ITesteRepository
+    public class TesteRepository :  BaseRepository, ITesteRepository
     {
-        public readonly DBContext _dbContext;
-
-        public TesteRepository(DBContext dbContext)
-        {
-            _dbContext = dbContext;
-        }
-
+        public TesteRepository(IDbConnectionFactory connectionFactory) 
+            : base(connectionFactory) { }
         public async Task<string> GetTesteAsync()
         {
             var query = @"SELECT version()";
             try
             {
-                using (var conn = _dbContext.CreateConnection())
-                {
-                    var result = await conn.QueryAsync<string>(query);
-                    return result.FirstOrDefault();
-                }
+                //using (var conn = _dbContext.CreateConnection())
+               // {
+                //    var result = await conn.QueryAsync<string>(query);
+                //    return result.FirstOrDefault();
+               // }
+
+               return await WithConnection(async conn =>
+               {
+                   const string sql = "SELECT version()";
+                   return await conn.QueryFirstOrDefaultAsync<string>(sql);
+
+               });
+
             }
             catch (Exception)
             {

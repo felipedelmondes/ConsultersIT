@@ -16,7 +16,9 @@ builder.Services.AddControllers();
 
 builder.Services.AddTransient<ITesteRepository, TesteRepository>();
 builder.Services.AddTransient<ITesteService, TesteService>();
+builder.Services.AddTransient<ICepResponse, CepService>();
 builder.Services.AddTransient<DBContext>();
+builder.Services.AddSingleton<IDbConnectionFactory, NpgsqlConnectionFactory>();
 
 // Adicionando HealthChecks
 builder.Services.AddHealthChecks()
