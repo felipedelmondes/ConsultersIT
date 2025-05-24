@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "ConsultersIT.API/1.0.0": {
         "dependencies": {
+          "AspNetCore.HealthChecks.NpgSql": "6.0.1",
           "ConsultersIT.Core": "1.0.0",
           "ConsultersIT.Infra": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.15",
@@ -15,6 +16,18 @@
         },
         "runtime": {
           "ConsultersIT.API.dll": {}
+        }
+      },
+      "AspNetCore.HealthChecks.NpgSql/6.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "6.0.0",
+          "Npgsql": "8.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/HealthChecks.NpgSql.dll": {
+            "assemblyVersion": "6.0.1.0",
+            "fileVersion": "6.0.1.0"
+          }
         }
       },
       "Autofac/8.0.0": {
@@ -195,6 +208,15 @@
           "System.Diagnostics.DiagnosticSource": "8.0.0"
         }
       },
+      "Microsoft.Extensions.Diagnostics.HealthChecks/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Options": "8.0.0"
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/6.0.0": {},
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0"
@@ -689,13 +711,23 @@
           }
         }
       },
+      "ConsultersIT.Common/1.0.0": {
+        "runtime": {
+          "ConsultersIT.Common.dll": {}
+        }
+      },
       "ConsultersIT.Core/1.0.0": {
+        "dependencies": {
+          "ConsultersIT.Common": "1.0.0",
+          "ConsultersIT.Infra": "1.0.0"
+        },
         "runtime": {
           "ConsultersIT.Core.dll": {}
         }
       },
       "ConsultersIT.Infra/1.0.0": {
         "dependencies": {
+          "ConsultersIT.Common": "1.0.0",
           "Dapper": "2.1.35",
           "Dapper.Extensions.PostgreSQL": "5.1.4",
           "Dapper.ORM": "1.0.0.7",
@@ -712,6 +744,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AspNetCore.HealthChecks.NpgSql/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H+g2P9l7XN2I8dDuiDHh+LEZc6+ZtwtrQPYQM/h8zbM7CjmgiR4+aL4dRbHRAEfc/q2Cbb5nTCF3xASk3YEyHA==",
+      "path": "aspnetcore.healthchecks.npgsql/6.0.1",
+      "hashPath": "aspnetcore.healthchecks.npgsql.6.0.1.nupkg.sha512"
     },
     "Autofac/8.0.0": {
       "type": "package",
@@ -838,6 +877,20 @@
       "sha512": "sha512-JHYCQG7HmugNYUhOl368g+NMxYE/N/AiclCYRNlgCY9eVyiBkOHMwK4x60RYMxv9EL3+rmj1mqHvdCiPpC+D4Q==",
       "path": "microsoft.extensions.diagnostics.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ktOGFY2uJ6QqZbLgLZgYg6qWuOnwKEIYbpgGDR/1QY8E+8NhnL75dJZ+WDl88h7Q4JkIFeTkFBUGF5QmNcfUEg==",
+      "path": "microsoft.extensions.diagnostics.healthchecks/6.0.0",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6C9uhsA7GwT1qlXF+1JgOktilrWBSMLNVcwIjg63UvFaDVizg8fYTv826MC58dznvvT9yG31gGwsN1cFfg+yZQ==",
+      "path": "microsoft.extensions.diagnostics.healthchecks.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.abstractions.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
       "type": "package",
@@ -1202,6 +1255,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "ConsultersIT.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ConsultersIT.Core/1.0.0": {
       "type": "project",

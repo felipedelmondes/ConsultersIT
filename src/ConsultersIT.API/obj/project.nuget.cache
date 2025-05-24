@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rH+nwzVc8Jgg9kR7Jb07O+YZ7QSldTGz8TnxSr9uwr1yXaY+BgqYvUSkaFg9YCRxh9aflYBDf/CrA6iANXf05w==",
+  "dgSpecHash": "1GIUG753FhM=",
   "success": true,
-  "projectFilePath": "/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/ConsultersIT.API.csproj",
+  "projectFilePath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/ConsultersIT.API.csproj",
   "expectedPackageFiles": [
+    "/home/fedelmondes/.nuget/packages/aspnetcore.healthchecks.npgsql/6.0.1/aspnetcore.healthchecks.npgsql.6.0.1.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/autofac/8.0.0/autofac.8.0.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/autofac.extensions.dependencyinjection/9.0.0/autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
@@ -22,6 +23,8 @@
     "/home/fedelmondes/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/6.0.0/microsoft.extensions.diagnostics.healthchecks.6.0.0.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/6.0.0/microsoft.extensions.diagnostics.healthchecks.abstractions.6.0.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/microsoft.extensions.fileproviders.physical/8.0.0/microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/microsoft.extensions.filesystemglobbing/8.0.0/microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
