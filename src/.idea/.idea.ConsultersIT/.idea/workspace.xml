@@ -8,13 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0599780-5813-4eb9-82d5-13d0ab983213" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.assets.cache" afterDir="false" />
-    </list>
+    <list default="true" id="a0599780-5813-4eb9-82d5-13d0ab983213" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,6 +111,7 @@
       <workItem from="1748109211355" duration="1569000" />
       <workItem from="1748113129619" duration="515000" />
       <workItem from="1748114941274" duration="188000" />
+      <workItem from="1748115138247" duration="97000" />
     </task>
     <servers />
   </component>
@@ -145,14 +140,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ConsultersIT.Core/Services/CepService.cs</url>
           <line>15</line>
-          <properties documentPath="$PROJECT_DIR$/ConsultersIT.Core/Services/CepService.cs" containingFunctionPresentation="Method 'ConsultarCepAsync'">
-            <startOffsets>
-              <option value="368" />
-            </startOffsets>
-            <endOffsets>
-              <option value="369" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/ConsultersIT.Core/Services/CepService.cs" containingFunctionPresentation="Method 'ConsultarCepAsync'" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
