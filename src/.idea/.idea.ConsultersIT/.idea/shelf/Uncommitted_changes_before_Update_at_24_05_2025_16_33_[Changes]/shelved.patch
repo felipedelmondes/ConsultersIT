@@ -1,0 +1,177 @@
+Index: ConsultersIT.API/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/ConsultersIT.API.csproj\",\"projectName\":\"ConsultersIT.API\",\"projectPath\":\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/ConsultersIT.API.csproj\",\"outputPath\":\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/obj/\",\"projectStyle\":\"PackageReference\",\"originalTargetFrameworks\":[\"net8.0\"],\"sources\":{\"https://api.nuget.org/v3/index.json\":{}},\"frameworks\":{\"net8.0\":{\"targetAlias\":\"net8.0\",\"projectReferences\":{\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj\":{\"projectPath\":\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj\"},\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj\":{\"projectPath\":\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj\"}}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]}}\"frameworks\":{\"net8.0\":{\"targetAlias\":\"net8.0\",\"dependencies\":{\"Microsoft.AspNetCore.OpenApi\":{\"target\":\"Package\",\"version\":\"[8.0.15, )\"},\"Swashbuckle.AspNetCore\":{\"target\":\"Package\",\"version\":\"[6.6.2, )\"}},\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"frameworkReferences\":{\"Microsoft.AspNetCore.App\":{\"privateAssets\":\"none\"},\"Microsoft.NETCore.App\":{\"privateAssets\":\"all\"}},\"runtimeIdentifierGraphPath\":\"/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json\"}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ConsultersIT.API/obj/project.packagespec.json b/ConsultersIT.API/obj/project.packagespec.json
+--- a/ConsultersIT.API/obj/project.packagespec.json	(revision bfb511f39384dbd5e90f2432d4dcf9d4451fa935)
++++ b/ConsultersIT.API/obj/project.packagespec.json	(date 1748115123412)
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/ConsultersIT.API.csproj","projectName":"ConsultersIT.API","projectPath":"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/ConsultersIT.API.csproj","outputPath":"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/obj/","projectStyle":"PackageReference","originalTargetFrameworks":["net8.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net8.0":{"targetAlias":"net8.0","projectReferences":{"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj":{"projectPath":"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj"},"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj":{"projectPath":"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net8.0":{"targetAlias":"net8.0","dependencies":{"Microsoft.AspNetCore.OpenApi":{"target":"Package","version":"[8.0.15, )"},"Swashbuckle.AspNetCore":{"target":"Package","version":"[6.6.2, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.AspNetCore.App":{"privateAssets":"none"},"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/ConsultersIT.API.csproj","projectName":"ConsultersIT.API","projectPath":"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/ConsultersIT.API.csproj","outputPath":"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/obj/","projectStyle":"PackageReference","originalTargetFrameworks":["net8.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net8.0":{"targetAlias":"net8.0","projectReferences":{"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/ConsultersIT.Core.csproj":{"projectPath":"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/ConsultersIT.Core.csproj"},"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj":{"projectPath":"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net8.0":{"targetAlias":"net8.0","dependencies":{"Microsoft.AspNetCore.OpenApi":{"target":"Package","version":"[8.0.15, )"},"Swashbuckle.AspNetCore":{"target":"Package","version":"[6.6.2, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.AspNetCore.App":{"privateAssets":"none"},"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: ConsultersIT.Infra/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj\",\"projectName\":\"ConsultersIT.Infra\",\"projectPath\":\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj\",\"outputPath\":\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/\",\"projectStyle\":\"PackageReference\",\"originalTargetFrameworks\":[\"net8.0\"],\"sources\":{\"https://api.nuget.org/v3/index.json\":{}},\"frameworks\":{\"net8.0\":{\"targetAlias\":\"net8.0\",\"projectReferences\":{}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]}}\"frameworks\":{\"net8.0\":{\"targetAlias\":\"net8.0\",\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"frameworkReferences\":{\"Microsoft.NETCore.App\":{\"privateAssets\":\"all\"}},\"runtimeIdentifierGraphPath\":\"/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json\"}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ConsultersIT.Infra/obj/project.packagespec.json b/ConsultersIT.Infra/obj/project.packagespec.json
+--- a/ConsultersIT.Infra/obj/project.packagespec.json	(revision bfb511f39384dbd5e90f2432d4dcf9d4451fa935)
++++ b/ConsultersIT.Infra/obj/project.packagespec.json	(date 1748115122601)
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj","projectName":"ConsultersIT.Infra","projectPath":"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/ConsultersIT.Infra.csproj","outputPath":"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/obj/","projectStyle":"PackageReference","originalTargetFrameworks":["net8.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net8.0":{"targetAlias":"net8.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net8.0":{"targetAlias":"net8.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj","projectName":"ConsultersIT.Infra","projectPath":"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj","outputPath":"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/obj/","projectStyle":"PackageReference","originalTargetFrameworks":["net8.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net8.0":{"targetAlias":"net8.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net8.0":{"targetAlias":"net8.0","dependencies":{"Dapper":{"target":"Package","version":"[2.1.35, )"},"Dapper.Extensions.PostgreSQL":{"target":"Package","version":"[5.1.4, )"},"Dapper.ORM":{"target":"Package","version":"[1.0.0.7, )"},"Npgsql":{"target":"Package","version":"[8.0.4, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfo.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//------------------------------------------------------------------------------\n// <auto-generated>\n//     This code was generated by a tool.\n//\n//     Changes to this file may cause incorrect behavior and will be lost if\n//     the code is regenerated.\n// </auto-generated>\n//------------------------------------------------------------------------------\n\nusing System;\nusing System.Reflection;\n\n[assembly: System.Reflection.AssemblyCompanyAttribute(\"ConsultersIT.Core\")]\n[assembly: System.Reflection.AssemblyConfigurationAttribute(\"Debug\")]\n[assembly: System.Reflection.AssemblyFileVersionAttribute(\"1.0.0.0\")]\n[assembly: System.Reflection.AssemblyInformationalVersionAttribute(\"1.0.0\")]\n[assembly: System.Reflection.AssemblyProductAttribute(\"ConsultersIT.Core\")]\n[assembly: System.Reflection.AssemblyTitleAttribute(\"ConsultersIT.Core\")]\n[assembly: System.Reflection.AssemblyVersionAttribute(\"1.0.0.0\")]\n\n// Gerado pela classe WriteCodeFragment do MSBuild.\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfo.cs b/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfo.cs
+--- a/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfo.cs	(revision bfb511f39384dbd5e90f2432d4dcf9d4451fa935)
++++ b/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfo.cs	(date 1748115123291)
+@@ -13,7 +13,7 @@
+ [assembly: System.Reflection.AssemblyCompanyAttribute("ConsultersIT.Core")]
+ [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+ [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfb511f39384dbd5e90f2432d4dcf9d4451fa935")]
+ [assembly: System.Reflection.AssemblyProductAttribute("ConsultersIT.Core")]
+ [assembly: System.Reflection.AssemblyTitleAttribute("ConsultersIT.Core")]
+ [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+Index: ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\nbuild_property.TargetFramework = net8.0\nbuild_property.TargetPlatformMinVersion = \nbuild_property.UsingMicrosoftNETSdkWeb = \nbuild_property.ProjectTypeGuids = \nbuild_property.InvariantGlobalization = \nbuild_property.PlatformNeutralAssembly = \nbuild_property.EnforceExtendedAnalyzerRules = \nbuild_property._SupportedPlatformList = Linux,macOS,Windows\nbuild_property.RootNamespace = ConsultersIT.Core\nbuild_property.ProjectDir = /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/\nbuild_property.EnableComHosting = \nbuild_property.EnableGeneratedComInterfaceComImportInterop = \n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.GeneratedMSBuildEditorConfig.editorconfig b/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.GeneratedMSBuildEditorConfig.editorconfig
+--- a/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.GeneratedMSBuildEditorConfig.editorconfig	(revision bfb511f39384dbd5e90f2432d4dcf9d4451fa935)
++++ b/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.GeneratedMSBuildEditorConfig.editorconfig	(date 1748115123240)
+@@ -8,6 +8,6 @@
+ build_property.EnforceExtendedAnalyzerRules = 
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = ConsultersIT.Core
+-build_property.ProjectDir = /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/
++build_property.ProjectDir = /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/
+ build_property.EnableComHosting = 
+ build_property.EnableGeneratedComInterfaceComImportInterop = 
+Index: ConsultersIT.API/obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17474445608667263
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ConsultersIT.API/obj/rider.project.model.nuget.info b/ConsultersIT.API/obj/rider.project.model.nuget.info
+--- a/ConsultersIT.API/obj/rider.project.model.nuget.info	(revision bfb511f39384dbd5e90f2432d4dcf9d4451fa935)
++++ b/ConsultersIT.API/obj/rider.project.model.nuget.info	(date 1748115122270)
+@@ -1,1 +1,1 @@
+-17474445608667263
+\ No newline at end of file
++17481151134669281
+\ No newline at end of file
+Index: ConsultersIT.Core/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj\",\"projectName\":\"ConsultersIT.Core\",\"projectPath\":\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj\",\"outputPath\":\"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/obj/\",\"projectStyle\":\"PackageReference\",\"originalTargetFrameworks\":[\"net8.0\"],\"sources\":{\"https://api.nuget.org/v3/index.json\":{}},\"frameworks\":{\"net8.0\":{\"targetAlias\":\"net8.0\",\"projectReferences\":{}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]}}\"frameworks\":{\"net8.0\":{\"targetAlias\":\"net8.0\",\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"frameworkReferences\":{\"Microsoft.NETCore.App\":{\"privateAssets\":\"all\"}},\"runtimeIdentifierGraphPath\":\"/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json\"}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ConsultersIT.Core/obj/project.packagespec.json b/ConsultersIT.Core/obj/project.packagespec.json
+--- a/ConsultersIT.Core/obj/project.packagespec.json	(revision bfb511f39384dbd5e90f2432d4dcf9d4451fa935)
++++ b/ConsultersIT.Core/obj/project.packagespec.json	(date 1748115123344)
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj","projectName":"ConsultersIT.Core","projectPath":"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/ConsultersIT.Core.csproj","outputPath":"/home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Core/obj/","projectStyle":"PackageReference","originalTargetFrameworks":["net8.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net8.0":{"targetAlias":"net8.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net8.0":{"targetAlias":"net8.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/ConsultersIT.Core.csproj","projectName":"ConsultersIT.Core","projectPath":"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/ConsultersIT.Core.csproj","outputPath":"/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/","projectStyle":"PackageReference","originalTargetFrameworks":["net8.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net8.0":{"targetAlias":"net8.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net8.0":{"targetAlias":"net8.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\nbuild_property.TargetFramework = net8.0\nbuild_property.TargetPlatformMinVersion = \nbuild_property.UsingMicrosoftNETSdkWeb = \nbuild_property.ProjectTypeGuids = \nbuild_property.InvariantGlobalization = \nbuild_property.PlatformNeutralAssembly = \nbuild_property.EnforceExtendedAnalyzerRules = \nbuild_property._SupportedPlatformList = Linux,macOS,Windows\nbuild_property.RootNamespace = ConsultersIT.Infra\nbuild_property.ProjectDir = /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/\nbuild_property.EnableComHosting = \nbuild_property.EnableGeneratedComInterfaceComImportInterop = \n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.GeneratedMSBuildEditorConfig.editorconfig b/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.GeneratedMSBuildEditorConfig.editorconfig
+--- a/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.GeneratedMSBuildEditorConfig.editorconfig	(revision bfb511f39384dbd5e90f2432d4dcf9d4451fa935)
++++ b/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.GeneratedMSBuildEditorConfig.editorconfig	(date 1748115122467)
+@@ -8,6 +8,6 @@
+ build_property.EnforceExtendedAnalyzerRules = 
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = ConsultersIT.Infra
+-build_property.ProjectDir = /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.Infra/
++build_property.ProjectDir = /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/
+ build_property.EnableComHosting = 
+ build_property.EnableGeneratedComInterfaceComImportInterop = 
+Index: ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfo.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//------------------------------------------------------------------------------\n// <auto-generated>\n//     This code was generated by a tool.\n//\n//     Changes to this file may cause incorrect behavior and will be lost if\n//     the code is regenerated.\n// </auto-generated>\n//------------------------------------------------------------------------------\n\nusing System;\nusing System.Reflection;\n\n[assembly: System.Reflection.AssemblyCompanyAttribute(\"ConsultersIT.Infra\")]\n[assembly: System.Reflection.AssemblyConfigurationAttribute(\"Debug\")]\n[assembly: System.Reflection.AssemblyFileVersionAttribute(\"1.0.0.0\")]\n[assembly: System.Reflection.AssemblyInformationalVersionAttribute(\"1.0.0\")]\n[assembly: System.Reflection.AssemblyProductAttribute(\"ConsultersIT.Infra\")]\n[assembly: System.Reflection.AssemblyTitleAttribute(\"ConsultersIT.Infra\")]\n[assembly: System.Reflection.AssemblyVersionAttribute(\"1.0.0.0\")]\n\n// Gerado pela classe WriteCodeFragment do MSBuild.\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfo.cs b/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfo.cs
+--- a/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfo.cs	(revision bfb511f39384dbd5e90f2432d4dcf9d4451fa935)
++++ b/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfo.cs	(date 1748115122482)
+@@ -13,7 +13,7 @@
+ [assembly: System.Reflection.AssemblyCompanyAttribute("ConsultersIT.Infra")]
+ [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+ [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfb511f39384dbd5e90f2432d4dcf9d4451fa935")]
+ [assembly: System.Reflection.AssemblyProductAttribute("ConsultersIT.Infra")]
+ [assembly: System.Reflection.AssemblyTitleAttribute("ConsultersIT.Infra")]
+ [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+Index: ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\nbuild_property.TargetFramework = net8.0\nbuild_property.TargetPlatformMinVersion = \nbuild_property.UsingMicrosoftNETSdkWeb = true\nbuild_property.ProjectTypeGuids = \nbuild_property.InvariantGlobalization = \nbuild_property.PlatformNeutralAssembly = \nbuild_property.EnforceExtendedAnalyzerRules = \nbuild_property._SupportedPlatformList = Linux,macOS,Windows\nbuild_property.RootNamespace = ConsultersIT.API\nbuild_property.RootNamespace = ConsultersIT.API\nbuild_property.ProjectDir = /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/\nbuild_property.EnableComHosting = \nbuild_property.EnableGeneratedComInterfaceComImportInterop = \nbuild_property.RazorLangVersion = 8.0\nbuild_property.SupportLocalizedComponentNames = \nbuild_property.GenerateRazorMetadataSourceChecksumAttributes = \nbuild_property.MSBuildProjectDirectory = /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API\nbuild_property._RazorSourceGeneratorDebug = \n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.GeneratedMSBuildEditorConfig.editorconfig b/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.GeneratedMSBuildEditorConfig.editorconfig
+--- a/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.GeneratedMSBuildEditorConfig.editorconfig	(revision bfb511f39384dbd5e90f2432d4dcf9d4451fa935)
++++ b/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.GeneratedMSBuildEditorConfig.editorconfig	(date 1748115123379)
+@@ -9,11 +9,11 @@
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = ConsultersIT.API
+ build_property.RootNamespace = ConsultersIT.API
+-build_property.ProjectDir = /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API/
++build_property.ProjectDir = /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/
+ build_property.EnableComHosting = 
+ build_property.EnableGeneratedComInterfaceComImportInterop = 
+ build_property.RazorLangVersion = 8.0
+ build_property.SupportLocalizedComponentNames = 
+ build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+-build_property.MSBuildProjectDirectory = /home/fedelmondes/Documentos/API Consultoria/ConsultersIT/src/ConsultersIT/ConsultersIT.API
++build_property.MSBuildProjectDirectory = /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API
+ build_property._RazorSourceGeneratorDebug = 
+Index: ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.AssemblyInfo.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//------------------------------------------------------------------------------\n// <auto-generated>\n//     This code was generated by a tool.\n//\n//     Changes to this file may cause incorrect behavior and will be lost if\n//     the code is regenerated.\n// </auto-generated>\n//------------------------------------------------------------------------------\n\nusing System;\nusing System.Reflection;\n\n[assembly: System.Reflection.AssemblyCompanyAttribute(\"ConsultersIT.API\")]\n[assembly: System.Reflection.AssemblyConfigurationAttribute(\"Debug\")]\n[assembly: System.Reflection.AssemblyFileVersionAttribute(\"1.0.0.0\")]\n[assembly: System.Reflection.AssemblyInformationalVersionAttribute(\"1.0.0\")]\n[assembly: System.Reflection.AssemblyProductAttribute(\"ConsultersIT.API\")]\n[assembly: System.Reflection.AssemblyTitleAttribute(\"ConsultersIT.API\")]\n[assembly: System.Reflection.AssemblyVersionAttribute(\"1.0.0.0\")]\n\n// Gerado pela classe WriteCodeFragment do MSBuild.\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.AssemblyInfo.cs b/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.AssemblyInfo.cs
+--- a/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.AssemblyInfo.cs	(revision bfb511f39384dbd5e90f2432d4dcf9d4451fa935)
++++ b/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.AssemblyInfo.cs	(date 1748115123381)
+@@ -13,7 +13,7 @@
+ [assembly: System.Reflection.AssemblyCompanyAttribute("ConsultersIT.API")]
+ [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+ [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfb511f39384dbd5e90f2432d4dcf9d4451fa935")]
+ [assembly: System.Reflection.AssemblyProductAttribute("ConsultersIT.API")]
+ [assembly: System.Reflection.AssemblyTitleAttribute("ConsultersIT.API")]
+ [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

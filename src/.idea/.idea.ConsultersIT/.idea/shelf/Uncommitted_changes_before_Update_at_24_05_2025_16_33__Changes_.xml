@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_Update_at_24_05_2025_16_33_[Changes]" date="1748115182057" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2025_16_33_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 24/05/2025 16:33 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2025_16_33_[Changes]/ConsultersIT.API.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.assets.cache" />
+    <option name="AFTER_PATH" value="ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2025_16_33_[Changes]/ConsultersIT.Infra.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.assets.cache" />
+    <option name="AFTER_PATH" value="ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2025_16_33_[Changes]/ConsultersIT.API.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2025_16_33_[Changes]/ConsultersIT.API.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2025_16_33_[Changes]/ConsultersIT.Core.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.assets.cache" />
+    <option name="AFTER_PATH" value="ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2025_16_33_[Changes]/ConsultersIT.Core.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/shelf/Uncommitted_changes_before_Update_at_24_05_2025_16_33_[Changes]/ConsultersIT.Infra.AssemblyInfoInputs.cache" />
+  </binary>
+</changelist>
