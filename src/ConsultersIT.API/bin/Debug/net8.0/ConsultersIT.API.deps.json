@@ -711,8 +711,14 @@
           }
         }
       },
+      "ConsultersIT.Common/1.0.0": {
+        "runtime": {
+          "ConsultersIT.Common.dll": {}
+        }
+      },
       "ConsultersIT.Core/1.0.0": {
         "dependencies": {
+          "ConsultersIT.Common": "1.0.0",
           "ConsultersIT.Infra": "1.0.0"
         },
         "runtime": {
@@ -721,6 +727,7 @@
       },
       "ConsultersIT.Infra/1.0.0": {
         "dependencies": {
+          "ConsultersIT.Common": "1.0.0",
           "Dapper": "2.1.35",
           "Dapper.Extensions.PostgreSQL": "5.1.4",
           "Dapper.ORM": "1.0.0.7",
@@ -1248,6 +1255,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "ConsultersIT.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ConsultersIT.Core/1.0.0": {
       "type": "project",

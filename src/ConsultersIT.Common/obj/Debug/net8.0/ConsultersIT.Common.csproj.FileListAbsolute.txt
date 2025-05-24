@@ -1,0 +1,12 @@
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/bin/Debug/net8.0/ConsultersIT.Common.deps.json
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/bin/Debug/net8.0/ConsultersIT.Common.dll
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/bin/Debug/net8.0/ConsultersIT.Common.pdb
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.GeneratedMSBuildEditorConfig.editorconfig
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.AssemblyInfoInputs.cache
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.AssemblyInfo.cs
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.csproj.CoreCompileInputs.cache
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.sourcelink.json
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.dll
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/obj/Debug/net8.0/refint/ConsultersIT.Common.dll
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.pdb
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/obj/Debug/net8.0/ref/ConsultersIT.Common.dll

@@ -1,4 +1,4 @@
-using ConsultersIT.Core.Interfaces;
+using ConsultersIT.Common.Interfaces;
 using ConsultersIT.Core.Services;
 using ConsultersIT.Infra.Data.Context;
 using ConsultersIT.Infra.Interfaces;
@@ -14,8 +14,9 @@ builder.Services.AddControllers();
 
 //services
 
-builder.Services.AddTransient<ITesteRepository, TesteRepository>();
-builder.Services.AddTransient<ITesteService, TesteService>();
+// Ajustando os namespaces para resolver ambiguidades
+builder.Services.AddTransient<ConsultersIT.Infra.Interfaces.ITesteRepository, TesteRepository>();
+builder.Services.AddTransient<ConsultersIT.Core.Interfaces.ITesteService, TesteService>();
 builder.Services.AddTransient<ICepResponse, CepService>();
 builder.Services.AddTransient<DBContext>();
 builder.Services.AddSingleton<IDbConnectionFactory, NpgsqlConnectionFactory>();

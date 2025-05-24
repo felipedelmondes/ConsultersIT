@@ -1132,10 +1132,21 @@
           }
         }
       },
+      "ConsultersIT.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ConsultersIT.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsultersIT.Common.dll": {}
+        }
+      },
       "ConsultersIT.Infra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "ConsultersIT.Common": "1.0.0",
           "Dapper": "2.1.35",
           "Dapper.Extensions.PostgreSQL": "5.1.4",
           "Dapper.ORM": "1.0.0.7",
@@ -3287,6 +3298,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ConsultersIT.Common/1.0.0": {
+      "type": "project",
+      "path": "../ConsultersIT.Common/ConsultersIT.Common.csproj",
+      "msbuildProject": "../ConsultersIT.Common/ConsultersIT.Common.csproj"
+    },
     "ConsultersIT.Infra/1.0.0": {
       "type": "project",
       "path": "../ConsultersIT.Infra/ConsultersIT.Infra.csproj",
@@ -3295,6 +3311,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ConsultersIT.Common >= 1.0.0",
       "ConsultersIT.Infra >= 1.0.0"
     ]
   },
@@ -3323,6 +3340,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/ConsultersIT.Common.csproj": {
+              "projectPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/ConsultersIT.Common.csproj"
+            },
             "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj": {
               "projectPath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj"
             }

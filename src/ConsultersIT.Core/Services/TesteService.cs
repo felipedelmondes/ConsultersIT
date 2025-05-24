@@ -1,19 +1,20 @@
-using ConsultersIT.Core.Interfaces;
+using ConsultersIT.Common.Interfaces;
 using ConsultersIT.Infra.Interfaces;
+using ConsultersIT.Core.Interfaces;
 
 namespace ConsultersIT.Core.Services;
 
 public class TesteService : ITesteService
 {
-    public readonly ITesteRepository _Respository;
+    private readonly ConsultersIT.Infra.Interfaces.ITesteRepository _testeRepository;
 
-    public TesteService(ITesteRepository respository)
+    public TesteService(ConsultersIT.Infra.Interfaces.ITesteRepository testeRepository)
     {
-        _Respository = respository;
+        _testeRepository = testeRepository;
     }
 
     public Task<string> GetTesteAsync()
     {
-        return _Respository.GetTesteAsync();
+        return _testeRepository.GetTesteAsync();
     }
 }

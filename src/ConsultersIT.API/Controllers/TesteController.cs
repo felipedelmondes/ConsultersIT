@@ -2,8 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ConsultersIT.Common.Interfaces;
+using ConsultersIT.Common.Models.DTO;
 using ConsultersIT.Core.Interfaces;
-using ConsultersIT.Core.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConsultersIT.API.Controllers
@@ -11,14 +12,14 @@ namespace ConsultersIT.API.Controllers
     [ApiController]
     public class TesteController : ControllerBase
     {
-        public TesteController(ITesteService service, ICepResponse cepService)
+        public TesteController(ITesteService service, ConsultersIT.Common.Interfaces.ICepResponse cepService)
         {
             _service = service;
             _cepService = cepService;
         }
 
         private readonly ITesteService _service;
-        private readonly ICepResponse _cepService;
+        private readonly ConsultersIT.Common.Interfaces.ICepResponse _cepService;
         
 
         [HttpGet]      

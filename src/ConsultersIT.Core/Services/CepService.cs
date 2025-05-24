@@ -1,5 +1,5 @@
-using ConsultersIT.Core.Interfaces;
-using ConsultersIT.Core.Models.DTO;
+using ConsultersIT.Common.Interfaces;
+using ConsultersIT.Common.Models.DTO;
 
 namespace ConsultersIT.Core.Services;
 

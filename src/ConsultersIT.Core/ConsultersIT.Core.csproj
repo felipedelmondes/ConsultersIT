@@ -6,7 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
+    <ItemGroup><!-- Removida a referência ao projeto Infra para evitar dependência circular -->
+    
+      <ProjectReference Include="..\ConsultersIT.Common\ConsultersIT.Common.csproj" />
+    
       <ProjectReference Include="..\ConsultersIT.Infra\ConsultersIT.Infra.csproj" />
     </ItemGroup>
 
