@@ -9,6 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0599780-5813-4eb9-82d5-13d0ab983213" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../ConsultersIT.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsultersIT.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.API.pdb" afterDir="false" />
@@ -61,6 +62,10 @@
       <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ref/ConsultersIT.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ref/ConsultersIT.Infra.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/refint/ConsultersIT.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/refint/ConsultersIT.Infra.dll" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Common/ConsultersIT.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Common/ConsultersIT.Common.csproj" afterDir="false" />
+>>>>>>> origin/main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +173,10 @@
       <workItem from="1748115138247" duration="97000" />
       <workItem from="1748115253203" duration="136000" />
       <workItem from="1748115395629" duration="182000" />
+<<<<<<< HEAD
       <workItem from="1748116854414" duration="34000" />
+=======
+>>>>>>> origin/main
     </task>
     <servers />
   </component>

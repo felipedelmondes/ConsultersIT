@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "7wlBj5tBI1c=",
+=======
+  "dgSpecHash": "eMGG845sGAOzcpNgiiddETE+S70cBc/UCzyjOVSvV1bCGo9dJBADWS7BKsPeLTHoEhbfGWqaYNVMdvodlOy1TA==",
+>>>>>>> origin/main
   "success": true,
   "projectFilePath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/ConsultersIT.Infra.csproj",
   "expectedPackageFiles": [
