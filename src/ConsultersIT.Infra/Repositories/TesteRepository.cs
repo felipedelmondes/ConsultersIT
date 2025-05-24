@@ -17,23 +17,15 @@ namespace ConsultersIT.Infra.Repositories
             var query = @"SELECT version()";
             try
             {
-                //using (var conn = _dbContext.CreateConnection())
-               // {
-                //    var result = await conn.QueryAsync<string>(query);
-                //    return result.FirstOrDefault();
-               // }
-
-               return await WithConnection(async conn =>
-               {
-                   const string sql = "SELECT version()";
-                   return await conn.QueryFirstOrDefaultAsync<string>(sql);
-
-               });
-
+                return await WithConnection(async conn =>
+                {
+                    const string sql = "SELECT version()";
+                    return await conn.QueryFirstOrDefaultAsync<string>(sql);
+                });
             }
             catch (Exception)
             {
-                throw;
+                return string.Empty; // Retorna um valor padrão em caso de erro
             }
         }
     }
