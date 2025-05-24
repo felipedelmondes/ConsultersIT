@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "H++h3pQrxJhalYAn5JtTYaQqWkI7PMxseDUPygIXYBn72hHNzuMg6fTBDxsJLALVImasAP8zd5wjNV4Vvz5efA==",
+  "dgSpecHash": "AE9n+VRNguc=",
   "success": true,
   "projectFilePath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/ConsultersIT.API.csproj",
   "expectedPackageFiles": [
@@ -76,7 +76,10 @@
     "/home/fedelmondes/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/system.text.json/6.0.1/system.text.json.6.0.1.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
-    "/home/fedelmondes/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
+    "/home/fedelmondes/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.13/microsoft.netcore.app.host.linux-x64.8.0.13.nupkg.sha512"
   ],
   "logs": [
     {

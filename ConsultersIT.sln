@@ -1,11 +1,11 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultersIT.API", "ConsultersIT.API\ConsultersIT.API.csproj", "{36C46F58-C14C-4E79-B4C5-8C014B4DEFE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultersIT.API", "src/ConsultersIT.API/ConsultersIT.API.csproj", "{36C46F58-C14C-4E79-B4C5-8C014B4DEFE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultersIT.Core", "ConsultersIT.Core\ConsultersIT.Core.csproj", "{678BE2AC-1CE2-471C-8373-FB8135614FA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultersIT.Core", "src/ConsultersIT.Core/ConsultersIT.Core.csproj", "{678BE2AC-1CE2-471C-8373-FB8135614FA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultersIT.Infra", "ConsultersIT.Infra\ConsultersIT.Infra.csproj", "{B1CD470B-326B-4F28-84E6-77983B1B73A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultersIT.Infra", "src/ConsultersIT.Infra/ConsultersIT.Infra.csproj", "{B1CD470B-326B-4F28-84E6-77983B1B73A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultersIT.Common", "ConsultersIT.Common\ConsultersIT.Common.csproj", "{D1A2B3C4-D5E6-7F89-0A1B-2C3D4E5F6789}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultersIT.Common", "src/ConsultersIT.Common/ConsultersIT.Common.csproj", "{D1A2B3C4-D5E6-7F89-0A1B-2C3D4E5F6789}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -9,8 +9,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0599780-5813-4eb9-82d5-13d0ab983213" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsultersIT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsultersIT.Common/ConsultersIT.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Common/ConsultersIT.Common.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsultersIT.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsultersIT.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Infra.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/bin/Debug/net8.0/ConsultersIT.Infra.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ConsultersIT.API.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ref/ConsultersIT.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/ref/ConsultersIT.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/refint/ConsultersIT.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.API/obj/Debug/net8.0/refint/ConsultersIT.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Common/bin/Debug/net8.0/ConsultersIT.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Common/bin/Debug/net8.0/ConsultersIT.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Common/bin/Debug/net8.0/ConsultersIT.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Common/bin/Debug/net8.0/ConsultersIT.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ConsultersIT.Common.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ref/ConsultersIT.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/ref/ConsultersIT.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/refint/ConsultersIT.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Common/obj/Debug/net8.0/refint/ConsultersIT.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Infra.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/bin/Debug/net8.0/ConsultersIT.Infra.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ref/ConsultersIT.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/ref/ConsultersIT.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/refint/ConsultersIT.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Core/obj/Debug/net8.0/refint/ConsultersIT.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/bin/Debug/net8.0/ConsultersIT.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/bin/Debug/net8.0/ConsultersIT.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/bin/Debug/net8.0/ConsultersIT.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/bin/Debug/net8.0/ConsultersIT.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/bin/Debug/net8.0/ConsultersIT.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/bin/Debug/net8.0/ConsultersIT.Infra.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/bin/Debug/net8.0/ConsultersIT.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/bin/Debug/net8.0/ConsultersIT.Infra.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ref/ConsultersIT.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/ref/ConsultersIT.Infra.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/refint/ConsultersIT.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultersIT.Infra/obj/Debug/net8.0/refint/ConsultersIT.Infra.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +89,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2c88f24404ea4071b32c6c97daf9329e1dc400/37/1fc00491/ActionMethodExecutor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7078b78dd14e4584bab9e83a1cfdda7b30400/3c/913a4abc/ServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8bde209c28449b6b57a361ec57454d5b2e200/1e/e29c5e9f/Task`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsultersIT.Infra/Interfaces/ICargoRepository.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -117,6 +168,7 @@
       <workItem from="1748115138247" duration="97000" />
       <workItem from="1748115253203" duration="136000" />
       <workItem from="1748115395629" duration="182000" />
+      <workItem from="1748116854414" duration="34000" />
     </task>
     <servers />
   </component>
