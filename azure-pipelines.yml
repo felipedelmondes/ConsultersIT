@@ -1,8 +1,3 @@
-# ASP.NET
-# Build and test ASP.NET projects.
-# Add steps that publish symbols, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
-
 trigger:
 - main
 
@@ -10,18 +5,25 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/*.sln'
+  solution: '**/ConsultersIT.sln'  # Específico em vez de genérico
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
 steps:
-- task: NuGetToolInstaller@1
-
-- script: type D:\a\1\s\ConsultersIT.sln
-  displayName: 'Check solution file content'
-
 - checkout: self
   clean: true
+
+- powershell: |
+    Get-ChildItem -Path $(Build.SourcesDirectory) -Filter *.sln -Recurse | Select-Object FullName
+    if (Test-Path "$(Build.SourcesDirectory)\ConsultersIT.sln") {
+        Get-Content "$(Build.SourcesDirectory)\ConsultersIT.sln" -Head 5
+    } else {
+        Write-Host "##vso[task.logissue type=error]Arquivo ConsultersIT.sln não encontrado"
+        exit 1
+    }
+  displayName: 'Verify solution file'
+
+- task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
   displayName: 'NuGet restore'
