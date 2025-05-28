@@ -14,30 +14,31 @@ steps:
   clean: true
 
 - powershell: |
-    Get-ChildItem -Path $(Build.SourcesDirectory) -Filter *.sln -Recurse | Select-Object FullName
-    if (Test-Path "$(Build.SourcesDirectory)\ConsultersIT.sln") {
-        Get-Content "$(Build.SourcesDirectory)\ConsultersIT.sln" -Head 5
-    } else {
-        Write-Host "##vso[task.logissue type=error]Arquivo ConsultersIT.sln não encontrado"
+    # Verificação robusta do arquivo .sln
+    $slnPath = "$(Build.SourcesDirectory)\ConsultersIT.sln"
+    if (-not (Test-Path $slnPath)) {
+        Write-Host "##vso[task.logissue type=error]Arquivo .sln não encontrado em $slnPath"
         exit 1
     }
-  displayName: 'Verify solution file'
+    $content = Get-Content $slnPath -Raw
+    if (-not $content.StartsWith("Microsoft Visual Studio Solution File")) {
+        Write-Host "##vso[task.logissue type=error]Arquivo .sln inválido ou corrompido"
+        exit 1
+    }
+    Write-Host "Arquivo .sln válido encontrado"
+  displayName: 'Validate solution file'
 
 - task: NuGetToolInstaller@1
 
-- task: NuGetCommand@2
-  displayName: 'NuGet restore'
+- task: DotNetCoreCLI@2
+  displayName: 'Restore NuGet Packages'
   inputs:
-    restoreSolution: '$(solution)'
+    command: 'restore'
+    projects: '**/ConsultersIT.sln'
+    feedsToUse: 'select'
 
 - task: VSBuild@1
   inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    solution: '**/ConsultersIT.sln'
+    platform: 'Any CPU'
+    configuration: 'Release'
