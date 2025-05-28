@@ -1,8 +1,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'windows-latest'
+pool: myUbuntu
 
 variables:
   solution: '**/ConsultersIT.sln'  # Específico em vez de genérico
