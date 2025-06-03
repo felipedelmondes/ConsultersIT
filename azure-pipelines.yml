@@ -12,6 +12,11 @@ steps:
 - checkout: self
   clean: true
 
+- script: |
+    ls -lR $(Build.SourcesDirectory)
+    cat $(Build.SourcesDirectory)/ConsultersIT.sln
+  displayName: 'List files and show .sln content'
+
 - task: DotNetCoreCLI@2
   displayName: 'Restore NuGet Packages'
   inputs:
