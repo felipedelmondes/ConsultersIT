@@ -12,31 +12,22 @@ steps:
 - checkout: self
   clean: true
 
-- powershell: |
-    $slnPath = "$(Build.SourcesDirectory)\ConsultersIT.sln"
-    if (-not (Test-Path $slnPath)) {
-        Write-Host "##vso[task.logissue type=error]Arquivo .sln não encontrado em $slnPath"
-        exit 1
-    }
-    $content = Get-Content $slnPath -Raw
-    if (-not $content.StartsWith("Microsoft Visual Studio Solution File")) {
-        Write-Host "##vso[task.logissue type=error]Arquivo .sln inválido ou corrompido"
-        exit 1
-    }
-    Write-Host "Arquivo .sln válido encontrado"
-  displayName: 'Validate solution file'
-
-- task: NuGetToolInstaller@1
-
 - task: DotNetCoreCLI@2
   displayName: 'Restore NuGet Packages'
   inputs:
     command: 'restore'
-    projects: '**/ConsultersIT.sln'
-    feedsToUse: 'select'
+    projects: '$(solution)'
 
-- task: VSBuild@1
+- task: DotNetCoreCLI@2
+  displayName: 'Build'
   inputs:
-    solution: '**/ConsultersIT.sln'
-    platform: 'Any CPU'
-    configuration: 'Release'
+    command: 'build'
+    projects: '$(solution)'
+    arguments: '--configuration $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Test'
+  inputs:
+    command: 'test'
+    projects: '$(solution)'
+    arguments: '--configuration $(buildConfiguration)'
