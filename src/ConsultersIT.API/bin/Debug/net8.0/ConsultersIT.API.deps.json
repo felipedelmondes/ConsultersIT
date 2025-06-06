@@ -713,10 +713,7 @@
       },
       "ConsultersIT.Common/1.0.0": {
         "runtime": {
-          "ConsultersIT.Common.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ConsultersIT.Common.dll": {}
         }
       },
       "ConsultersIT.Core/1.0.0": {
@@ -725,10 +722,7 @@
           "ConsultersIT.Infra": "1.0.0"
         },
         "runtime": {
-          "ConsultersIT.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ConsultersIT.Core.dll": {}
         }
       },
       "ConsultersIT.Infra/1.0.0": {
@@ -740,10 +734,7 @@
           "Npgsql": "8.0.4"
         },
         "runtime": {
-          "ConsultersIT.Infra.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ConsultersIT.Infra.dll": {}
         }
       }
     }

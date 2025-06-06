@@ -1,0 +1,16 @@
+{
+  // Task de build para projetos .NET
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/ConsultersIT.sln"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}

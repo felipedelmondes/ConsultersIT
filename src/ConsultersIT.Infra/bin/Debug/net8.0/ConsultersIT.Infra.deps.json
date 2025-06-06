@@ -702,10 +702,7 @@
       },
       "ConsultersIT.Common/1.0.0": {
         "runtime": {
-          "ConsultersIT.Common.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ConsultersIT.Common.dll": {}
         }
       }
     }

@@ -10,8 +10,7 @@ COPY src/ ./src/
 RUN dotnet restore
 
 # Publica a aplicação
-WORKDIR /app/src/ConsultersIT.API
-RUN dotnet publish -c Release -o /out
+RUN dotnet publish src/ConsultersIT.API/ConsultersIT.API.csproj -c Release -o /out
 
 # Etapa de runtime
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
@@ -22,5 +21,5 @@ EXPOSE 8080
 ENTRYPOINT ["dotnet", "ConsultersIT.API.dll"]
 
 # Comandos para build e execução
-# docker build -t consultersit-api -f src/ConsultersIT.API/Dockerfile .
+# docker build -t consultersit-api .
 # docker run -d -p 8080:8080 --name consultersit-api consultersit-api

@@ -25,4 +25,4 @@
 /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/obj/Debug/net8.0/refint/ConsultersIT.Infra.dll
 /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.pdb
 /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/obj/Debug/net8.0/ref/ConsultersIT.Infra.dll
-/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/obj/Debug/net8.0/Consulte.C0AB4460.Up2Date
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Infra/obj/Debug/net8.0/ConsultersIT.Infra.csproj.CopyComplete
