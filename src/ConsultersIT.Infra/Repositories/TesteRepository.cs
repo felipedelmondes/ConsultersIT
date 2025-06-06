@@ -25,7 +25,7 @@ namespace ConsultersIT.Infra.Repositories
             }
             catch (Exception)
             {
-                return string.Empty; // Retorna um valor padrão em caso de erro
+                return "Falha na conexão com o banco de dados";
             }
         }
     }
