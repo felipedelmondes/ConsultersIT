@@ -26,4 +26,4 @@
 /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/refint/ConsultersIT.Core.dll
 /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.pdb
 /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ref/ConsultersIT.Core.dll
-/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/ConsultersIT.Core.csproj.CopyComplete
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/obj/Debug/net8.0/Consulte.EF01538F.Up2Date
