@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lDDOBFKNXWzljE3InvR5ilzjynUBMNNS4nHiT9uPhnuEdIlpXzw0vczAAY96Dzz6zrhqnK7gkLCpB1PDAzRWKA==",
+  "dgSpecHash": "cUjr2xIvD9A=",
   "success": true,
   "projectFilePath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Common/ConsultersIT.Common.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/fedelmondes/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
+  ],
   "logs": []
 }

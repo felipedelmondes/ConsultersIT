@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "70ktwdo5mtewgv2j/N/JVe3+tRZ3ZE72YZsbtoOYUME=",
+  "Hash": "26iFh5lL+OOqJqB5yYu4F0jtQ85N2Sr6Q0zvwC8Ummk=",
   "Source": "ConsultersIT.API",
   "BasePath": "_content/ConsultersIT.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

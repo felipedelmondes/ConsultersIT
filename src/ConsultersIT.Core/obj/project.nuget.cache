@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vRjiqiNUII46InMDCsYiz0s6hxpl5GzfJ2a24L5khVO8iWFDGbw1zHfchGB0/CgUH5g6IrDbAcFrVcYxB+j0FQ==",
+  "dgSpecHash": "y4CVCMHUcKo=",
   "success": true,
   "projectFilePath": "/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.Core/ConsultersIT.Core.csproj",
   "expectedPackageFiles": [
     "/home/fedelmondes/.nuget/packages/autofac/8.0.0/autofac.8.0.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/autofac.extensions.dependencyinjection/9.0.0/autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/dapper.extensions.netcore/5.1.4/dapper.extensions.netcore.5.1.4.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/dapper.extensions.postgresql/5.1.4/dapper.extensions.postgresql.5.1.4.nupkg.sha512",
@@ -28,6 +29,10 @@
     "/home/fedelmondes/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.1/microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.identitymodel.abstractions/8.12.0/microsoft.identitymodel.abstractions.8.12.0.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.12.0/microsoft.identitymodel.jsonwebtokens.8.12.0.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.identitymodel.logging/8.12.0/microsoft.identitymodel.logging.8.12.0.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.identitymodel.tokens/8.12.0/microsoft.identitymodel.tokens.8.12.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
@@ -50,6 +55,7 @@
     "/home/fedelmondes/.nuget/packages/system.directoryservices/6.0.1/system.directoryservices.6.0.1.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/system.directoryservices.protocols/6.0.1/system.directoryservices.protocols.6.0.1.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/system.identitymodel.tokens.jwt/8.12.0/system.identitymodel.tokens.jwt.8.12.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
@@ -66,7 +72,9 @@
     "/home/fedelmondes/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/system.text.json/6.0.1/system.text.json.6.0.1.nupkg.sha512",
     "/home/fedelmondes/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
-    "/home/fedelmondes/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
+    "/home/fedelmondes/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/home/fedelmondes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
   ],
   "logs": [
     {
