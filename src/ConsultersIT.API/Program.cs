@@ -1,8 +1,9 @@
-using ConsultersIT.Common.Interfaces;
+using ConsultersIT.Core.Interfaces;
 using ConsultersIT.Core.Services;
 using ConsultersIT.Infra.Data.Context;
 using ConsultersIT.Infra.Interfaces;
 using ConsultersIT.Infra.Repositories;
+using ICepResponse = ConsultersIT.Common.Interfaces.ICepResponse;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +20,11 @@ builder.Services.AddTransient<ConsultersIT.Infra.Interfaces.ITesteRepository, Te
 builder.Services.AddTransient<ConsultersIT.Core.Interfaces.ITesteService, TesteService>();
 builder.Services.AddTransient<ICepResponse, CepService>();
 builder.Services.AddTransient<DBContext>();
+builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddTransient<IUsuariosServices, UsuariosService>();
 builder.Services.AddSingleton<IDbConnectionFactory, NpgsqlConnectionFactory>();
+builder.Services.AddTransient<IAutenticationService, AutenticationService>();
+builder.Services.AddTransient<IJwtService, JwtService>();
 
 // Adicionando HealthChecks
 builder.Services.AddHealthChecks()
