@@ -11,7 +11,7 @@ public class NpgsqlConnectionFactory : IDbConnectionFactory
     
     public NpgsqlConnectionFactory(IConfiguration config)
     {
-        _connectionString = config.GetConnectionString("PostgresDb");
+        _connectionString = config.GetConnectionString("DefaultConnection");
     }
     
     public IDbConnection CreateConnection() => new NpgsqlConnection(_connectionString);
