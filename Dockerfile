@@ -16,10 +16,13 @@ RUN dotnet publish src/ConsultersIT.API/ConsultersIT.API.csproj -c Release -o /o
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /out .
+
+# Configuração básica
+ENV ASPNETCORE_ENVIRONMENT=Production
 ENV ASPNETCORE_URLS=http://+:8080
+
+# Configuração da connection string como secret
+ENV ConnectionStrings__DefaultConnection=${DB_CONNECTION_STRING:-"Server=localhost;Database=ConsultersIT_Dev;User=sa;Password=DevPassword123;"}
+
 EXPOSE 8080
 ENTRYPOINT ["dotnet", "ConsultersIT.API.dll"]
-
-# Comandos para build e execução
-# docker build -t consultersit-api .
-# docker run -d -p 8080:8080 --name consultersit-api consultersit-api
