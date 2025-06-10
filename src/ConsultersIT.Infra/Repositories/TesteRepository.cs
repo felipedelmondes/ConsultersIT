@@ -23,9 +23,9 @@ namespace ConsultersIT.Infra.Repositories
                     return await conn.QueryFirstOrDefaultAsync<string>(sql);
                 });
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return "Falha na conexão com o banco de dados";
+                return "Falha na conexão com o banco de dados: " + ex.Message;
             }
         }
     }

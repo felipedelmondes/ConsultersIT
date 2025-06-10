@@ -26,9 +26,13 @@ builder.Services.AddSingleton<IDbConnectionFactory, NpgsqlConnectionFactory>();
 builder.Services.AddTransient<IAutenticationService, AutenticationService>();
 builder.Services.AddTransient<IJwtService, JwtService>();
 
+// Busca a string de conexão do ambiente (Railway) ou do appsettings.json
+var postgresConnectionString = Environment.GetEnvironmentVariable("POSTGRES_PRIVATE_URL")
+    ?? builder.Configuration.GetConnectionString("PostgresDb");
+
 // Adicionando HealthChecks
 builder.Services.AddHealthChecks()
-    .AddNpgSql(builder.Configuration.GetConnectionString("PostgresDb"));
+    .AddNpgSql(postgresConnectionString);
 
 var app = builder.Build();
 
