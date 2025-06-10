@@ -27,8 +27,20 @@ builder.Services.AddTransient<IAutenticationService, AutenticationService>();
 builder.Services.AddTransient<IJwtService, JwtService>();
 
 // Busca a string de conexão do ambiente (Railway) ou do appsettings.json
-var postgresConnectionString = Environment.GetEnvironmentVariable("POSTGRES_PRIVATE_URL")
+var rawDatabaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL")
+    ?? Environment.GetEnvironmentVariable("POSTGRES_PRIVATE_URL")
     ?? builder.Configuration.GetConnectionString("PostgresDb");
+
+string postgresConnectionString = rawDatabaseUrl;
+
+// Se a variável vier no formato postgres://, converte para o formato aceito pelo Npgsql
+if (!string.IsNullOrEmpty(rawDatabaseUrl) && rawDatabaseUrl.StartsWith("postgres://"))
+{
+    var uri = new Uri(rawDatabaseUrl);
+    var userInfo = uri.UserInfo.Split(':');
+    var builderConn = $"Host={uri.Host};Port={uri.Port};Database={uri.AbsolutePath.TrimStart('/')};Username={userInfo[0]};Password={userInfo[1]};SSL Mode=Require;Trust Server Certificate=true";
+    postgresConnectionString = builderConn;
+}
 
 // Adicionando HealthChecks
 builder.Services.AddHealthChecks()
