@@ -18,7 +18,7 @@ namespace ConsultersIT.Infra.Data.Context
         public DBContext(IConfiguration configuration)
         {
             _configuration = configuration;
-            this.connectionStrig = this._configuration.GetConnectionString("DefaultConnection");
+            this.connectionStrig = this._configuration.GetConnectionString("PostgresDb");
         }
         public IDbConnection CreateConnection() => new NpgsqlConnection(connectionStrig);
     }

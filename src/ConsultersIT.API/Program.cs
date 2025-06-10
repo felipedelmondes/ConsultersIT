@@ -26,29 +26,14 @@ builder.Services.AddSingleton<IDbConnectionFactory, NpgsqlConnectionFactory>();
 builder.Services.AddTransient<IAutenticationService, AutenticationService>();
 builder.Services.AddTransient<IJwtService, JwtService>();
 
-// Busca a string de conexão do ambiente (Railway) ou do appsettings.json
-var rawDatabaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL")
-    ?? Environment.GetEnvironmentVariable("POSTGRES_PRIVATE_URL")
+// Busca a string de conexão do ambiente (variável de ambiente do pipeline), appsettings, appsettings.Development e secrets
+var postgresConnectionString = Environment.GetEnvironmentVariable("ConnectionStrings__PostgresDb")
     ?? builder.Configuration.GetConnectionString("PostgresDb");
-
-string postgresConnectionString = rawDatabaseUrl;
-
-// Aceita tanto postgres:// quanto postgresql://
-if (!string.IsNullOrEmpty(rawDatabaseUrl) &&
-    (rawDatabaseUrl.StartsWith("postgres://") || rawDatabaseUrl.StartsWith("postgresql://")))
+if (string.IsNullOrEmpty(postgresConnectionString))
 {
-    // Corrige o prefixo para Uri
-    var fixedUrl = rawDatabaseUrl.Replace("postgresql://", "postgres://");
-    var uri = new Uri(fixedUrl);
-    var userInfo = uri.UserInfo.Split(':');
-    if (userInfo.Length != 2)
-    {
-        throw new InvalidOperationException($"DATABASE_URL mal formatada: '{rawDatabaseUrl}'");
-    }
-    var builderConn = $"Host={uri.Host};Port={uri.Port};Database={uri.AbsolutePath.TrimStart('/')};Username={userInfo[0]};Password={userInfo[1]};SSL Mode=Require;Trust Server Certificate=true";
-    postgresConnectionString = builderConn;
-    Console.WriteLine($"String de conexão convertida: {postgresConnectionString}");
+    throw new InvalidOperationException("A ConnectionString 'PostgresDb' não foi encontrada. Verifique se está definida em appsettings, appsettings.Development, user-secrets ou variável de ambiente ConnectionStrings__PostgresDb.");
 }
+Console.WriteLine($"String de conexão utilizada: {postgresConnectionString}");
 
 // Adicionando HealthChecks
 builder.Services.AddHealthChecks()
