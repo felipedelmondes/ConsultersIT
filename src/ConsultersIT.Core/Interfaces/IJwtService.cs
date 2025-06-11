@@ -2,5 +2,5 @@ namespace ConsultersIT.Core.Interfaces;
 
 public interface IJwtService
 {
-    public string GenerateToken(string username, string senha, int expireMinutes = 60);
+    public string GenerateToken(string senha, int expireMinutes = 60);
 }

@@ -181,3 +181,6 @@
 /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/obj/Debug/net8.0/staticwebassets.build.endpoints.json
 /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/obj/Debug/net8.0/staticwebassets/msbuild.ConsultersIT.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 /home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/obj/Debug/net8.0/Consulte.19A6714C.Up2Date
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/fedelmondes/Área de trabalho/Projetos/ConsultersIT/src/ConsultersIT.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

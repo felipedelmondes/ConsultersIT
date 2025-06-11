@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ConsultersIT.Common.Interfaces;
 using ConsultersIT.Common.Models.DTO;
 using ConsultersIT.Core.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConsultersIT.API.Controllers
@@ -22,7 +23,8 @@ namespace ConsultersIT.API.Controllers
         private readonly ConsultersIT.Common.Interfaces.ICepResponse _cepService;
         
 
-        [HttpGet]      
+        [Authorize]
+        [HttpGet]
         [Route("api/TesteDB")]
         public Task<string> Get()
         {
@@ -41,4 +43,3 @@ namespace ConsultersIT.API.Controllers
         }
     }
 }
-

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ConsultersIT.Common.Models.DTO;
 using ConsultersIT.Core.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConsultersIT.API.Controllers
@@ -18,6 +19,7 @@ namespace ConsultersIT.API.Controllers
             _usuariosServices = usuariosServices;
         }
 
+        [Authorize]
         [HttpGet]
         [Route("api/GetUsuarios")]
         public Task<List<UsuarioDTO>> GetUsuarios()
@@ -25,6 +27,7 @@ namespace ConsultersIT.API.Controllers
             return _usuariosServices.GetUsuarios();
         }
         
+        [Authorize]
         [HttpPost]
         [Route("api/AddUsuario")]
         public async Task<string> AddUsuario([FromBody] UsuarioDTO usuario)
@@ -38,7 +41,7 @@ namespace ConsultersIT.API.Controllers
         
         [HttpPost]
         [Route("api/Login")]
-        public async Task<LoginResponse> Login([FromBody] LoginDTO login)
+        public async Task<LoginResponse> Login(LoginDTO login)
         {
             if (login.username.Trim() == null || login.senha.Trim() == null)
             {

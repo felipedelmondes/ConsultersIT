@@ -1,18 +1,24 @@
 using BCrypt.Net;
 using ConsultersIT.Core.Interfaces;
 using Org.BouncyCastle.Crypto.Generators;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace ConsultersIT.Core.Services;
 
 public class AutenticationService : IAutenticationService
 {
-    public string HashPassword(string password)
+    public string EncryptPassword(string password)
     {
-        return BCrypt.Net.BCrypt.HashPassword(password);
-    }
-
-    public bool VerifyPassword(string password, string hashedPassword)
-    {
-        return BCrypt.Net.BCrypt.Verify(password, hashedPassword);
+        using (SHA256 sha256Hash = SHA256.Create())
+        {
+            byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(password));
+            StringBuilder builder = new StringBuilder();
+            for (int i = 0; i < bytes.Length; i++)
+            {
+                builder.Append(bytes[i].ToString("x2"));
+            }
+            return builder.ToString();
+        }
     }
 }

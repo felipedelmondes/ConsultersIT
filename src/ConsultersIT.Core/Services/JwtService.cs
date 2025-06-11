@@ -9,10 +9,11 @@ namespace ConsultersIT.Core.Services;
 
 public class JwtService : IJwtService
 {
-    public string GenerateToken(string username, string senha, int expireMinutes = 60)
+    public string GenerateToken(string username, int expireMinutes = 60)
     {
+        var jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET") ?? "S16D/psC/ljNyi3zEGq9GpgILIwwPi+mnIXYPtJ7nUI=";
         var tokenHandler = new JwtSecurityTokenHandler();
-        var key = Encoding.ASCII.GetBytes(senha);
+        var key = Encoding.UTF8.GetBytes(jwtSecret);
         var tokenDescriptor = new SecurityTokenDescriptor
         {
             Subject = new ClaimsIdentity(new[] { new Claim(ClaimTypes.Name, username) }),

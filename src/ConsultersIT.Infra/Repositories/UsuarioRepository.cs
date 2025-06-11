@@ -64,15 +64,17 @@ namespace ConsultersIT.Infra.Repositories
                         u.nome_usuario,
                         u.senha_hash
                     from usuarios u
-                    where u.nome_usuario = @NomeUsuario";
+                    where u.nome_usuario = @NomeUsuario
+                    and u.senha_hash = @SenhaHash ";
 
             try
             {
                 return await WithConnection<LoginResponse>(async conn =>
                 {
-                    var usuario = await conn.QueryFirstOrDefaultAsync<LoginDTO>(query, new
+                    var usuario = await conn.QueryFirstOrDefaultAsync(query, new
                     {
-                        NomeUsuario = login.username.Trim()
+                        NomeUsuario = login.username.Trim().ToUpper(),
+                        SenhaHash = login.senha.Trim()
                     });
 
                     if (usuario == null)
@@ -80,11 +82,11 @@ namespace ConsultersIT.Infra.Repositories
                         return new LoginResponse { Mensagem = "Usuário ou senha inválidos." };
                     }
 
-                    // Retorna o hash para ser comparado na camada de serviço
+                    // Mapeia os campos corretamente para LoginResponse
                     return new LoginResponse()
                     {
                         Mensagem = "Login realizado com sucesso",
-                        Hash = usuario.username // Adicione esta propriedade se necessário
+                        Hash = usuario.senha_hash
                     };
                 });
             }
